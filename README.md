@@ -6,7 +6,7 @@ Herramientas gratis para estudiantes, en español. Todo se procesa en tu navegad
 
 ## Herramientas
 
-- **Formato APA 7:** sube tu Word, revisa la vista previa y descárgalo en Word o PDF con el formato APA aplicado (portada APA o institucional, márgenes, interlineado, títulos, figuras, tablas y referencias). Antes revisa que tus citas coincidan con tus referencias.
+- **Formato APA 7:** asistente en 5 pasos. Sube tu Word y recibe una puntuación APA, revisión de títulos, citas y referencias (con corrección automática), portada de estudiante, profesional o de tu universidad (con integrantes y matrículas), estilo APA o el que pida tu profesor, índice, listas de tablas y figuras, anexos al final y descarga en Word o PDF.
 - **Generador de citas APA:** referencias y citas para libros, artículos, páginas web, periódicos, leyes, informes, redes sociales, software, IA y más.
 - **Mayúsculas para títulos:** tipo oración o tipo título.
 - **Lista de verificación APA:** repasa tu trabajo antes de entregarlo.

@@ -174,5 +174,7 @@ const aaSent=s=>aaFix(s,s.toLowerCase().replace(/(^|[.?!:]\s+)([¿¡"«]?)(\p{L}
 const aaTit=s=>aaFix(s,s.toLowerCase().replace(/\p{L}[\p{L}'’]*/gu,(w,o,str)=>{const b=str.slice(0,o).trimEnd();return(!b||/[:?!.]$/.test(b)||!AA_MIN.has(w))?w[0].toUpperCase()+w.slice(1):w}));
 function aaBind(btn,inp,first){let m=first;btn.onclick=()=>{const v=inp.value;if(!v.trim())return say("Escribe primero el título.");inp.value=m==="s"?aaSent(v):aaTit(v);say(m==="s"?"Título en tipo oración: mayúscula solo al inicio y en nombres propios.":"Título en tipo título: mayúscula en las palabras principales.");m=m==="s"?"t":"s";btn.title=m==="s"?"Pasar a tipo oración":"Pasar a tipo título";inp.dispatchEvent(new Event("input"))}}
 aaBind($("#aa"),$("#ti"),"s");
+try{const q=new URLSearchParams(location.search);if(q.get("ti")){const au=(q.get("au")||"").replace(/,?\s+(?:y|&)\s+/g,", ").split(/(?<=\.)\s*,\s*(?=[^,]+,)/).map(s=>s.trim()).filter(Boolean);
+ $("#au").value=au.join("\n");$("#an").value=(q.get("an")||"").slice(0,4);$("#ti").value=q.get("ti").slice(0,400);if(q.get("ex"))$("#ep").value=q.get("ex").replace(/\.$/,"").slice(0,300);say("Datos traídos desde tu documento. Elige el tipo de fuente y revisa cada campo.")}}catch(e){}
 show();render();list();
 </script></body></html>
