@@ -10,7 +10,7 @@ Herramientas gratis para estudiantes, en español. Todo se procesa en tu navegad
 - **Generador de citas APA:** referencias y citas para libros, artículos, páginas web, periódicos, leyes, informes, redes sociales, software, IA y más.
 - **Mayúsculas para títulos:** tipo oración o tipo título.
 - **Lista de verificación APA:** repasa tu trabajo antes de entregarlo.
-- **Word a PDF, comprimir PDF, PDF a imágenes y numerar páginas.**
+- **Word a PDF, comprimir PDF y PDF a imágenes.**
 - **Unir PDF, dividir PDF e imágenes a PDF.**
 - **Contador de palabras.**
 
